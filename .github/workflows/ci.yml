@@ -63,7 +63,7 @@ jobs:
 
       - name: Upload Apk
         if: github.repository == 'topminipie/twoyi'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: apk
           path: app/build/outputs/apk/release/app-release-unsigned.apk
